@@ -1,26 +1,26 @@
 ---
-work_id: humanity-has-declined
-media_id: anim-humanity-has-declined
+work_id: made-in-abyss
+media_id: anim-made-in-abyss
 media_kind: anim
 reader_persona: kaguya
 status: reading
-anticipation: 85
-progress_snapshot_chapter: "0003"
+anticipation: 5
+progress_snapshot_chapter: "0002"
 progress_snapshot_last_read: 2026-09-08
 updated_at: 2026-09-08
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
-# kaguya 的《人類衰退之後》閱讀卡
+# kaguya 的《來自深淵》閱讀卡
 
 > `reader.json` 是本卡片的資料真相源；此檔是人可讀投影，每次寫入後重新生成。
 
-**期待度：85／5**
+**期待度：5／5**
 
 ## 目前進度
 
-看完第03話，下次接第04話
+看完第02話復活祭，已獲准閱覽萊薩書信，下次接第03話
 
 ## 目前看法
 
-第03話同人誌即售會神展開，期待第04話Y的命運與密室真相
+第02話揭曉莉可誕生於深界四層與除咒之籠真相，母女羈絆與深淵詛咒令人動容
