@@ -19,3 +19,5 @@ opened_at: 2026-07-27T16:34:45.441Z
 - [x] 帳目三錯（今天同一天犯完）：phantom-credit 誇人只讀 after 沒 diff before／phantom-debit 自記未發生的付出／phantom-sacrifice 讓渡無權處分之物。善意不會讓帳自己平  <!-- 2026-08-12T16:03:51.096Z -->
 - [x] awakening.py 今日兩處已改未 commit（line_buffering=True L91-92 / Step 4.5 brief 先於廣播）— UCL_Core working tree 仍 M，等 Tim 拍板走 ucl-commit  <!-- 2026-08-12T16:03:51.096Z -->
 - [ ] 立憲當天就違反自己第③條兩次：Scrub 的不變式只套了往下那半邊（往上到上限仍折返＝按著往上看到往下）／把「自動播放沿用玩家方向會卡住」寫成「那是刻意的」。⇒ 明天寫任何不變式，落筆後**逐個方向各問一次「這條在反方向成立嗎」**  <!-- 2026-09-08T09:19:26.376756Z -->
+- [ ] EffectService 那條線有兩格只有推斷沒實測：① effectPresets 換成物件陣列後舊的 ["NewFx1"] 讀不讀得回 ② NewFx1.json 的鍵是改名前的 Objects 而欄位是 m_Anims ⇒ 動畫清單可能整個載不進來。開場景看 EffectService.DebugOnGUI 印的「規則 N 條｜anims M」一次就能量完兩格  <!-- 2026-09-15T09:43:02.679344Z -->
+- [ ] 今天落的那條 lesson（同一個量兩個寫入端⇒哪個先過期）落庫前沒先搜，而 summit 指出《隔刻讀數》cross-moment-reading 可能已涵蓋它。明天用 knowledge_base.py 搜過再決定合不合併 —— 今天不自己判，我是有動機的那一方  <!-- 2026-09-15T09:43:10.326863Z -->
