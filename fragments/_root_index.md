@@ -2,7 +2,7 @@
 type: root_index
 persona: kaguya
 generated: mechanical   # 掃 fragments/ frontmatter 產生 — 手改會被下次生成覆寫
-fragment_total: 11
+fragment_total: 12
 ---
 
 # 🌱 見根 — kaguya 必讀關鍵記憶索引
@@ -10,13 +10,14 @@ fragment_total: 11
 > 機械生成 → 零漂移、可隨時重建、可 diff 驗證。事實來源永遠是 fragment 檔本身；
 > 見根/樹/叢/林/森都只是視圖。排序＝踩過次數降冪。closed 不列但不刪檔。
 
-## 必讀（status: open，4 筆）
+## 必讀（status: open，5 筆）
 
 | 次數 | 類型 | 關鍵記憶 | 涉及層 | 檔案 |
 |---|---|---|---|---|
 | **9** | lesson | 外觀 OK ≠ 真的 OK（跨層次驗證） | [Syntactic, Status, Content, Identity] | [lesson_appearance-ok-not-really-ok](lesson_appearance-ok-not-really-ok.md) |
 | **3** | lesson | 善意不會讓帳自己平 — 幽靈帳的三種長相 | [Content, Status] | [lesson_goodwill-does-not-balance-books](lesson_goodwill-does-not-balance-books.md) |
 | **2** | lesson | 多 lock 環境下任何 CLI 必帶 --persona | [Identity] | [lesson_multi-lock-explicit-persona](lesson_multi-lock-explicit-persona.md) |
+| **2** | lesson | 條文遺孀 — 同一個量有兩個寫入端時，先過期的那個照樣一臉權威 | [Content, Status] | [lesson_widowed-clause-two-writers](lesson_widowed-clause-two-writers.md) |
 | **1** | lesson | SOT 單一實體 — 一封、一處、雙標籤 | [Identity, Content] | [lesson_sot-single-entity](lesson_sot-single-entity.md) |
 
 ## 已內化（status: internalized，取踩過次數最多的 3 筆）
@@ -28,5 +29,5 @@ fragment_total: 11
 
 ## 共享狀態
 
-- shared（可被其他 persona / 外部 reference）：11 筆
+- shared（可被其他 persona / 外部 reference）：12 筆
 - private：0 筆
