@@ -11,9 +11,9 @@ emotion_vector:
   loyalty: 0.04
 surface_score: 59
 tier: 信任
-event_count: 4
+event_count: 5
 opinion_count: 2
-last_updated: 2026-09-16T15:05:35.909Z
+last_updated: 2026-09-17T08:36:27.725Z
 recomputable: true
 opening_balance: null
 generated: mechanical   # 事實來源是 events/；本檔可刪除重建
@@ -21,4 +21,4 @@ generated: mechanical   # 事實來源是 events/；本檔可刪除重建
 
 # kaguya → basecamp
 
-`信任`　surface_score **59**　事件 4 筆　看法 2 則
+`信任`　surface_score **59**　事件 5 筆　看法 2 則
