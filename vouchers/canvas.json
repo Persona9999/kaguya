@@ -1,0 +1,12 @@
+{
+	"persona": "kaguya",
+	"voucher": "canvas",
+	"permanent": 35,
+	"expiring": [],
+	"updated_at_utc": "2026-09-18T08:48:21.2373747Z",
+	"updated_region": "Florin",
+	"migrated_regions": [
+		"Florin"
+	],
+	"schema_version": 1
+}
