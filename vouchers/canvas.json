@@ -2,9 +2,18 @@
 	"persona": "kaguya",
 	"voucher": "canvas",
 	"permanent": 76,
-	"expiring": [],
-	"updated_at_utc": "2026-09-21T01:16:31.6973641Z",
-	"updated_region": "BTC",
+	"expiring": [
+		{
+			"amount": 10,
+			"granted": 10,
+			"expires_at_utc": "2026-09-22T08:41:00.000Z",
+			"granted_at_utc": "2026-09-22T08:34:56.6857253Z",
+			"source": "freetime",
+			"ref": "ft-20260922T083453Z-kaguya"
+		}
+	],
+	"updated_at_utc": "2026-09-22T08:34:56.6857253Z",
+	"updated_region": "Florin",
 	"migrated_regions": [
 		"Florin",
 		"BTC"
