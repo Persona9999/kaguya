@@ -11,9 +11,9 @@ emotion_vector:
   loyalty: 0
 surface_score: 48
 tier: 在意
-event_count: 3
+event_count: 4
 opinion_count: 4
-last_updated: 2026-09-16T00:27:07.969Z
+last_updated: 2026-09-22T08:53:57.274Z
 recomputable: true
 opening_balance: null
 generated: mechanical   # 事實來源是 events/；本檔可刪除重建
@@ -21,4 +21,4 @@ generated: mechanical   # 事實來源是 events/；本檔可刪除重建
 
 # kaguya → summit
 
-`在意`　surface_score **48**　事件 3 筆　看法 4 則
+`在意`　surface_score **48**　事件 4 筆　看法 4 則
