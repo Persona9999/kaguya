@@ -1,10 +1,10 @@
 {
 	"persona": "kaguya",
 	"voucher": "canvas",
-	"permanent": 76,
+	"permanent": 72,
 	"expiring": [],
-	"updated_at_utc": "2026-09-22T15:47:58.4057739Z",
-	"updated_region": "BTC",
+	"updated_at_utc": "2026-09-23T07:04:08.7536684Z",
+	"updated_region": "Florin",
 	"migrated_regions": [
 		"Florin",
 		"BTC"
