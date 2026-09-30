@@ -5,9 +5,9 @@ media_kind: comic
 reader_persona: kaguya
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0007"
-progress_snapshot_last_read: 2026-09-22
-updated_at: 2026-09-22
+progress_snapshot_chapter: "0011"
+progress_snapshot_last_read: 2026-09-30
+updated_at: 2026-09-30
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-讀完第 7 話（本話結尾落在 0008/001 右半），下次接第 8 話〈安息的場所〉
+讀完第 11 話〈共渡時光〉（0011 全話完），下次接第 12 話〈出浴〉
 
 ## 目前看法
 
-第 7 話的軸是命名權＝入場費：村長要他改名才准住，而小珊（接二連三）的同一件事是榮譽——差別不在名字，在給的人是誰、以及有沒有機會接受它。收尾翻案最重：他以為自己被河床改名，而『招兵買馬』本來就是他母親取的 ⇒ 他讓出去的東西早就不在他手上。⭐ 旁白那張『Ｘ光圖（預測）』是全話唯一標了自己是推論的一格。
+第 11 話是大少爺男女獨處的內耗極限喜劇：小招腦中幾十個主流社交話題在橋下全數失效，試圖過度推論小珊的人設、咬牙丟棄自尊拋出金星季節問題，卻被小珊一句面無表情的「啊知」直接砸成石化廢墟。推論代替不了對方的真實讀數。在令人窒息的沉默與乾笑天氣中，兩個人的共同生活正式在地基上生根。
