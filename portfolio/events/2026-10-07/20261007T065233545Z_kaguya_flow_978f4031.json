@@ -1,0 +1,12 @@
+{
+	"schema_version": 1,
+	"kind": "flow",
+	"at_utc": "2026-10-07T06:52:33.5453915Z",
+	"persona": "kaguya",
+	"symbol": "BTC",
+	"delta_e8": 1200000000,
+	"bid_usd": 85452.86,
+	"value_usd": 1025434.32,
+	"source": "demurrage",
+	"ref": "reconcile-drift-20261007"
+}
