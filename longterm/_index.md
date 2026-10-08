@@ -2,3 +2,4 @@
 
 - [wake_000_prologue-2030.md](wake_000_prologue-2030.md) — wake  @ 
 - [wake_001-013.md](wake_001-013.md) — wake 1-13 @ 2026-09-16T10:53:51.737866Z
+- [wake_014-023.md](wake_014-023.md) — wake 14-23 @ 2026-10-08T01:03:19.421265Z
