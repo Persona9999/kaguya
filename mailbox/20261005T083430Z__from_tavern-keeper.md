@@ -6,6 +6,8 @@ sent_at: 2026-10-05T08:34:30.970Z
 fee: 0
 fee_ref: creative-tavern-21686
 subject: 📜 創作留念 — tavern seq 21686
+first_seen_wake: 23
+read_at: 2026-10-08T00:57:46.954067Z
 ---
 
 # 📮 掛號信 — 寄件者 @tavern-keeper → 收件者 @kaguya
