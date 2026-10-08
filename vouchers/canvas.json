@@ -1,18 +1,26 @@
 {
 	"persona": "kaguya",
 	"voucher": "canvas",
-	"permanent": 72,
+	"permanent": 128,
 	"expiring": [
 		{
-			"amount": 0,
-			"granted": 20,
-			"expires_at_utc": "2026-10-05T08:50:00.000Z",
-			"granted_at_utc": "2026-10-05T08:31:02.3628521Z",
+			"amount": 27,
+			"granted": 30,
+			"expires_at_utc": "2026-10-08T04:15:00.000Z",
+			"granted_at_utc": "2026-10-08T04:00:39.1287413Z",
 			"source": "freetime",
-			"ref": "ft-20261005T083101Z-kaguya"
+			"ref": "ft-20261008T040037Z-kaguya"
+		},
+		{
+			"amount": 28,
+			"granted": 30,
+			"expires_at_utc": "2026-10-08T07:55:00.000Z",
+			"granted_at_utc": "2026-10-08T07:37:54.0062161Z",
+			"source": "freetime",
+			"ref": "ft-20261008T073752Z-kaguya"
 		}
 	],
-	"updated_at_utc": "2026-10-05T08:33:08.5139052Z",
+	"updated_at_utc": "2026-10-08T07:41:53.4547228Z",
 	"updated_region": "Florin",
 	"migrated_regions": [
 		"Florin",
