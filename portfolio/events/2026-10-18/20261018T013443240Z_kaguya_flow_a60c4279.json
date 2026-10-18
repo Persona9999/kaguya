@@ -1,0 +1,12 @@
+{
+	"schema_version": 1,
+	"kind": "flow",
+	"at_utc": "2026-10-18T01:34:43.2401201Z",
+	"persona": "kaguya",
+	"symbol": "BTC",
+	"delta_e8": 1100000000,
+	"bid_usd": 81588.83,
+	"value_usd": 897477.13,
+	"source": "demurrage",
+	"ref": "013436_151_c43e30"
+}
