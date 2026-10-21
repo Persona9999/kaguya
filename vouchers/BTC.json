@@ -1,10 +1,10 @@
 {
 	"persona": "kaguya",
 	"voucher": "BTC",
-	"permanent": 245,
+	"permanent": 282,
 	"fractional_e8": 50000000,
 	"expiring": [],
-	"updated_at_utc": "2026-10-20T00:00:38.5804919Z",
+	"updated_at_utc": "2026-10-21T00:00:23.8397949Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1
