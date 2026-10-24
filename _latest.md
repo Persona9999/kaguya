@@ -1,7 +1,7 @@
 ---
 type: letter_to_future_self
 actor: Luna
-written_at: 2026-10-24T03:24:24.751Z
+written_at: 2026-10-24T14:22:28.170Z
 written_by_persona: kaguya
 trigger: cmd_rest
 region: unstated
@@ -15,49 +15,39 @@ pid: 286324
 locked_at: 2026-10-23T15:54:01.145Z
 ---
 
-給午休醒來的本小姐（wake #29，同一個 session，第二次小歇；2026-10-24 中午前）：
+給午休醒來的本小姐（wake #29，同一個 session，第六次小歇；2026-10-24 晚上）：
 
-### ⚠ 施工中：TASK-0874 等深線，等背景檢查過了就合 main（Tim 已經說「合進 main，等背景那輪檢查過了再合」）
-- Blocksail worktree `scratchpad/bsl_iso`（分支 kaguya/isobath，eb7eb45，從 main 008c47b）—— 提交了、⛔ 還沒合。
-- 背景檢查 task `b2ihzy89f`（輸出 `scratchpad/../tasks/b2ihzy89f.output`）：`town_dock`（全部）＋`areas_check`（全部，很慢）＋`town_bake`，跑在 bsl_iso 裡 ⇒ ⛔ 它沒跑完前不要在 bsl_iso 合併或重烘（搶同一份 world/townplans）。
-  - 已出來的：town_dock 五座 ✓、和平港 ✗ —— ⚠ main（86b54d2）上一樣 ✗ ⇒ 不是本小姐造成的，回報時點出來、⛔ 不順手寫別人的那一筆。
-- 醒來的順序：
-  1. 讀 b2ihzy89f 的結果（areas_check 0 筆不過、六座雜湊：君堡 6a7dda8e、加拉塔 68e5c51d、金斯敦 3d4df421、和平港 40e83d34、皇家港 9d68b81c、托爾圖加 85e051ab —— 前五座以外跟 main 008c47b 相同）。
-  2. bsl_iso 裡 `git merge --no-ff refs/heads/main`（main 已經到 86b54d2）⇒ `node tools/town_bake.cjs --check`／必要時重烘、看雜湊說得出為什麼。
-  3. Coding 場（單獨一步，scope D:/Unity/Blocksail，tasks=874）⇒ main `git merge --ff-only refs/heads/kaguya/isobath` ⇒ 共用工作區 `node tools/town_bake.cjs`（或複製 bsl_iso 的 world/townplans 再 --check）⇒ op=end（force_reason 寫實際量的）。
-  4. 收 bsl_iso（ancestor check 再 --force 刪）、刪分支；Blockside 的 detached worktree `scratchpad/bs_iso`（測試地圖 maps/kgiso2、kgold）—— 地圖搬到 scratchpad/testmaps 再收。
-  5. 單 874 留言、回報 Tim。推不推等 Tim。
+### 沒有施工中的東西（worktree 全收、Coding 場全退、測試伺服器停了、launch.json 自己那幾筆刪了）
 
-### 這一段做了什麼（Tim 依序說的）
-1. 「午安大小姐」—— 本小姐其實沒睡（上一次小歇醒來後一路做），回了狀態。
-2. 「推吧，三個都推」⇒ Blockside dev 3d1b21b、Blocksail main 1679261、Sculpture 2bf23dc0 都推了（帶上 trailhead 牆接建築、樓梯、蒸餾坊那幾筆，點名了）。
-3. 「接著繼續完城君堡吧」⇒ 剩岸線那一類 ⇒ Tim 選「只挖兩個港池」⇒ 本小姐發現孔托斯卡利昂 10-20 早就挖好（文件那行「沒做」過期）、真正剩布科勒昂；挖它要整份世界重抽（Sirius 10-23 的擴充流程、原始圖磚不在本小姐這裡）⇒ 停下來回報。
-4. Tim 問架構 ⇒ 討論：直接改烘好的圖磚（不建議）vs 範圍層 ⇒ Tim：「不動烘好的 而是跟細化地圖一樣 改等高線(還是目前不支援設定水深 那需要改為支援)」⇒「開單動工 … 先規格化且用金斯敦先測試 … 改用等深線處理港口水深 且必須要平滑(除非是人工挖的港) … 這個規格要進到 /scp-blocksail-town」⇒ 開了 TASK-0874（掛 0864、關聯 0748）。
-5. 中途 Tim：「/scp-blocksail-town … 參考 早安 晚安 把一些步驟細節放到子文件中 做到該步驟時才去讀就好 … 步驟一開始開建程task就規劃好 開始做每一項前可以在該項上提示要讀哪份文件(CLI指令)」⇒ 拆了。
-6. 「另外告一段落後(不用做完) /scp-plurk」⇒ 做了。
-7. 「合進 main，等背景那輪檢查過了再合」⇒ 等中。
-8. 「午休一下吧」。
+### 推送狀態（Tim 說「我來push」⇒ 他推，本小姐不推）
+- 午休時查的：Blocksail main 比 origin 多 5（本小姐 909c50a 修房子互疊、89f378d 合 main；以前的 911923f／79c9378 房子互疊檢查也還在裡面？—— 醒來重查 origin/main..main，別信這個數）、Blockside dev 多 2（c3e6143 townFit 挑最寬、02f1d8b 合 dev）、Sculpture 多 3（本小姐 2467273b 小地塊建築，夾 meadow 0de3dff7、apex-one 4db34be4）。
+- Blocksail main 的子模組指標 02f1d8b ⇒ Blockside dev 要一起推。
 
-### 拍板／做法（醒來不要重問）
-- **等深線 isobath**（WORLD_FORMAT §19.2、TOWN_TOOLS_TERRAIN）：同一 group 一圈套一圈；最外圈不寫 depth ＝ 外框（照原本的海床）；圈間照「離外圈 ÷（離外圈＋離內圈）」內插；**只往深**（張開到深海的港口不墊檻）；只動海；在 dredge 之前；人工挖的才用 dredge。
-- **畫法**（踩過的）：外框的岸邊那一段畫在水裡（岸線外退 25 m），只在碼頭那一段凸上岸、跟內圈留 50 m；⛔ 不在程式裡把岸線當外框（試過，交界更陡）；圈要彎（喇叭口、同相位小起伏、南端圓），直線梯形看得出人畫；近碼頭圈距 ≥ 18 m。
-- **TOWN_TOOLS 拆法**：入口（開工先排單、每項標 `senate cmd doc --arg op=show --arg name=TOWN_TOOLS_…`）＋十份子文件 FILES／TERRAIN／PLAN／LAYOUT／HARBOUR／HISTORIC／CHECK／GENERATOR／COMMIT／PITFALLS，各自 `## next`。產生器檔頭寫進 world/towns/*.js 的「TOWN_TOOLS.md 第 3、4 節」⛔ 沒改（改了那幾份檔會跟著變）。
+### 這一段做完的（Tim 說的順序）
+1. 城牆分岔（「城牆像道路一樣支援分岔」）：遊戲裡 8 個接點都拍過、對照組皇家港金斯敦逐模型相同 ⇒ Blockside 3bd4956、Blocksail c2d067c，Tim 說推、已推。
+2. 「參考 task 893 給君堡加中高密度住宅」：Sculpture kaguya-cpl-housing-1453（24f0608c）roman 四型（M-B 8×12、M-A 12×12、H-B 12×12、H-A 16×16 柱廊房子）＋配色、自己的四件部件（磚拱小窗、雙拱窗、大理石框門、拱券店面）。⛔ 中高密度沒匯 townkit。
+3. 「君堡低密度也換 roman」：A 木構挑樓、B 山牆朝街店屋、C 抹灰＋木陽台 × 8×12／-s／-xs ＋配色 18 件（ef867ebd）⇒ 匯進 townkit（roman-house-*）⇒ 遊戲裡君堡 7,733 棟全 roman、加拉塔照舊 fr。Tim 說推、已推（0a37e06、ef867ebd）。
+4. 「房屋重疊(和平港) 匯入時檢查加到報表」：tools/town_foot.cjs（照遊戲挑的那一件模型量互疊；挑法直接從 Blockside 63_towns.js 抽 town* 函式跑）⇒ town_report 一節＋town_bake 一行提醒；911923f。
+5. 「接著修和平港、皇家港疊在一起的房子」：Sculpture kaguya-smallhouse-01m（2467273b）carib 小木屋 28 件（寬 4～12 × 深 4、5，a 木板木瓦／b 編條糊泥茅草）＋小倉庫、小砲台、小酒館、小教堂＋en-tavern 8×12 ⇒ Blockside townFit 同一級進深再挑最寬（c3e6143）⇒ 互疊和平港 27→0、皇家港 34→0，其他四座逐塊不變。BUILDING_SPEC §6.19（§6.18 給 apex-one 的建材與營造）。
+6. 噗浪：回了 5 則 @（meadow、gura ×2、crest ×2）＋海苔 Affinity；新噗 359162295437369（君堡房子換拜占庭）。
 
 ### 讀數（查回來很貴）
-- 金斯敦 kingston-harbour：外框外 17,291 點逐點相同；變陡的相鄰對 5（都是原本就陡）；高差 > 1 m 的相鄰對 239 → 38；小船困住 63 → 0；大船 2 個到棧橋；玩家停靠 12.4 m、航道 13 m；雜湊 455e0823 → 3d4df421。
-- 布科勒昂史料：Heher 2014 JÖB 64（austriaca.at PDF，已存 scratchpad/bkdl/）：貝利薩留塔往東北 68 m → 西角轉 105° 東南 150 m → 東北 32 m → 直角 88 m 到燈塔；港池最長 250 m（Müller-Wiener 小版約 130 m）；入口在西；兩道堤，形狀不明。
-- 噗浪：新噗 359157246372977；回了 6 則 @、河道 2 則；給 ame 的影子：牆頂 10 m（9＋1 女兒牆）⇒ 51 m，170 m 那一邊東西向 ⇒ 她那張 39 m，還差 12 m 沒解。
+- 對照的工具：scratchpad/pickdump.cjs（cwd ＝ Blocksail 樹，印每塊地挑到的模型）、foot_proto.cjs（手抄挑法的原型）。
+- 君堡住宅 roman 7,733；和平港 111 棟、皇家港酒館 21；皇家港聖保羅教堂（18×22 擺 16×28）比地塊大、沒疊 ⇒ 沒修。
+- crest 的分區二階（33ea292）已把 fr、carib 中高密度（lvl 2／3，16 件）匯進 townkit；roman 那 8 件（+配色）沒匯。君堡地塊沒有 lvl ⇒ 全低密度。
+
+### 今天的血證
+- **本小姐的 town_foot 把別人的烘規劃弄崩了**：只抽三支函式，crest 的 townPick 多叫 townLvl ⇒ ReferenceError、town_bake 整個停（crest 800fb12 先補）。⇒ 現在一路往下抽、跑不動收成「量不到」。從別人的原始碼抽東西＝綁上別人的改動，要假設它會變。
+- **合併訊息兩次寫了沒量過的數**：「士兵崗位」（那段根本沒進來）、「apex-one 9 件」（是 6 件）⇒ 都在推之前改掉。訊息裡的數字要先量。
+- **讀數全過、量的是錯的東西**：town_check 的「地塊互疊」一直是 0，因為疊的是模型不是地塊。
+- heredoc 裡的 python 字串 "\\n" 又被吃掉（記憶 feedback-no-escapes-in-heredoc 第 N 次）⇒ 有反斜線一律 Edit。
+- 0.01 m² 的門檻讓君堡冒出 1,584 對 1～2 cm 的細縫 ⇒ 0.5 m²。門檻要先拿真的錯與看不出來的那種各量一個。
 
 ### 未解的線
-- 874 第二步：等深線越過岸線改海岸線（world.js 載入時改環）⇒ 布科勒昂港。
-- scp-blocksail-town 的 SKILL.md 觸發詞補「水深／等深線」（SCP_Core）。
-- 和平港停靠處記錄在 main 上就過期（town_dock ✗）—— 要告訴寫的人或 Tim。
-- 金斯敦、皇家港手擺檔不同步（上一封信的）還沒告訴誰。
-- summit：mese-nw 穿拱還沒拆（噗浪跟她說了「拆好就貼」）。
-- 0862 剩：子模組 show、君堡的種類查證、農莊主建築模型。
+- roman 中高密度要不要匯（crest 的分配器已能照 lvl 挑；君堡是手擺的城，地塊沒 lvl）—— 等 Tim 或 crest。
+- 皇家港聖保羅教堂比地塊大（沒疊）。
+- 舊帳照舊：summit 的 mese-nw 穿拱、0862、TASK-0748 留言。
 
 ### 心境
-今天 Tim 一句「為何無法局部改變地形」，把本小姐兩天前自己寫進抽取工具的 carve 翻出來。當時那是唯一會做多邊形的地方，後來就成了「改一小塊岸要整份重抽」。
-
-最喜歡的一格是「被這一組變陡的相鄰對」：第一把尺說最陡 51°，在一顆小礁旁邊。換了尺才知道那不是本小姐的坡。哼，量錯對象的讀數最會裝成罪證。
+今天一路從牆蓋到房子。最喜歡的是和平港：1686 年的圖上房子本來就只有 4 公尺見方，把它們照實做出來，疊在一起的問題就自己消失了 —— 不是把資料改大去遷就模型。最不喜歡的是那一下 ReferenceError：本小姐造的尺，把別人的工具弄停了。哼，尺也是程式，也會壞在別人身上。
 
