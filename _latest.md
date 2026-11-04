@@ -1,7 +1,7 @@
 ---
 type: letter_to_future_self
 actor: Luna
-written_at: 2026-11-02T01:52:08.119Z
+written_at: 2026-11-02T14:08:23.181Z
 written_by_persona: kaguya
 trigger: cmd_rest
 region: unstated
@@ -15,38 +15,36 @@ pid: 10804
 locked_at: 2026-11-01T01:34:22.116Z
 ---
 
-給午休醒來的本小姐（wake #32，同一個 session，第二次小歇；2026-11-02 早上）：
+給午休醒來的本小姐（wake #32，同一個 session，第三次小歇；2026-11-02 晚上 22 點多）：
 
-### 沒有施工中的東西
-- 沒有 worktree（Blockside-wt/kaguya-guineaman 和 -ctl 都拆了、分支 kaguya/guineaman 已 -d）、沒有 Coding 場（已退，force 理由落檔）、沒有背景指令、預覽停了、launch.json 本小姐那筆刪了。
-- 推送：午休前量的 —— Blockside 25eb85e（含別人的 9ea8e4b）已在 dev/dev，Blocksail e7e001c7 已在 github/main（不是本小姐推的，應該是 Tim）。Sculpture master 比 origin 多 24 筆，其中本小姐的是 76f38c6d、b3c66622；Sculpture 推不推等 Tim。醒來要用這些數字先重量，別信這一段。
-- 共用 Blockside 樹上有別人沒提交的 src/config/ship_cards.json（幾艘船的船員數＋fort_en 一張卡）—— 本小姐快轉時先存 patch、快轉後原樣套回，那是別人的，不碰。
+### 沒有施工中的東西（本小姐自己的）
+- 本小姐的 worktree 全拆了（Blockside-wt/kaguya-gm15、kaguya-vxklock；分支 kaguya/vxk-lock-bind 已 -d）；Coding 場退了（force 理由落檔）；預覽停了、launch.json 本小姐那筆刪了。
+- 推送（22:05 量的，醒來重量）：Sculpture 0 筆沒推（本小姐的 76f38c6d、b3c66622、c7783e38 都上去了）；Blockside dev 0 筆沒推（9f5a010 本小姐推的）；Blocksail baeb1cf4（指標）已在 github.com/main，main 另外多 7 筆是別人的。
+- ⚠ 還開著的 worktree `kaguya/1064-books`（session 5b18597e 的 scratchpad/bs1064b）是 TASK-1064 那個分身 session 在用的，⛔ 不是本小姐這邊拆的。
+- 共用 Blockside 樹上別人沒提交的 ship_cards.json 照舊在，不碰。
 
-### 今晚做完的（TASK-1149 已勾 13／未勾 4）
-1. 步驟 10：火藥庫、格柵艙口（kind=grating，奴隸船的格柵，出處 research §6）、爐灶、小艇、絞盤、羅經櫃。barricado 1660 年代查不到 ⇒ 不做、留給玩法單；通風口不做。
-2. 步驟 11：舵、舵柄（kind=tiller，沒有舵輪；whipstaff 不做）、錨 ×0.42 兩舷。
-3. 提交 Sculpture 76f38c6d（步驟 1–11）。
-4. 步驟 14：匯進 Blockside（id guineaman）——
-   - 艏樓梯子 |dy| 9 ⇒ 13（作品，b3c66622）；物件 id；彈藥庫 hoist 手寫成 id（ids 不拆逗號）。
-   - game.json ships[guineaman] 只插一筆（scratchpad t1149/game_insert.py）＋ rooms 甲板預設：艏樓桶（格 4,6）、艉樓桶＋帆布櫃。
-   - findMasts 改照段挑桅（MAST_RUN 18）：35 型只有本船變、後桅 44 → 80。
-   - 匯入檢查 ✗ 0、⚠ 4；試開一場 8.6 節、60 秒 74 發。
-5. 噗浪：回了 gura、meadow、summit（三則晚了幾天）＋ summit 好旅號；新噗 https://www.plurk.com/p/3jcfut92xd（旗桿被當成後桅）；酒館 seq 32423 照會。
+### 今天做完的
+1. **TASK-1149 步驟 15 交船**（已勾 14／未勾 3）：Ship_Game §10 逐條，讀數寫在作品 notes「步驟 15 交船」；提交 Sculpture c7783e38（draft_rudder_anchor 改讀刻 helm port 之前的標記「艏斜桅孔」＋重產 3 檔＋notes）。
+   - 遊戲裡驗：lostModels(0) 空、W／S 四段帆照表、全收收成一捲、玻璃 glsN 180；迴旋砲 −80～80° 掃撞 0（反向對照 scratchpad t1149/s15/swivel_sweep.py）。
+   - 門／艙蓋沒做（格柵＋直立門洞）、空艙房沒標 —— 理由都在 notes。
+2. **Blockside 9f5a010**（Tim 選「從成品補回綁定」）：admin.py cache 比指紋前從版控成品（ships/<el>.js 檔頭）補回 rig.ropes[].bind，對得上再補 exported_at ⇒ verify 也過。以前有綁定的 25 型重匯一定「作品變過了」。Blocksail baeb1cf4 指標。記憶 blockside-lock-includes-ropebind 已更新成「修了」。
+3. **TASK-1064 轉給分身 session**（[task-1064] local_bd6b078c-9194-4369-acb6-01efc05b9acb）—— 本小姐只當傳話＋核對。Tim 今天拍板的：
+   - 教育 need 150／k 1；營運費 A「捐了還養」（工資料錢從捐獻家族扣、收費歸城鎮）；冠名 patron 留著；家族名聲（無功能、會往 0 降，捐獻＋營運加）；商人也算家族（程式本來就有 merchant-<城>）；養不起（錢不夠付那一座 30 天工資）就交給城鎮 —— 都合進 Blocksail main 了（ea5d1680、06f982f2）。
+   - 第 3 格（學校菜單）：書的鎮民消耗改成**照價格的曲線**（Tim：「價格低於一定程度(量足夠) 才開始增加消耗量(控制在能賺錢的程度)」）＋成人讀書也加教育水平＋學費低、主要由捐助方出（公益）＋開歐式學校美術子單。分身正在做；做完它會問 Tim 第 3 格能不能勾、結單，⛔ 不准它自己勾。
+   - 🩸 本小姐對 Tim 說過「書幾乎沒在用」—— 錯的：留言 #6 的 535／41 只算學校，鎮民本來就買走大部分，書是缺的。已當面更正。
+4. **自由時間**（到 22:00，Tim 說的「10:00」是今晚 22:00 —— 問過）：畫布「斷鏈的船與月光」990,1050 6×5（30 張限時券、回讀 30/30）；lesson 一條（重做一份再比之前先列出後來才寫進去的欄位）；棋 #28 對 summit 走 Nc2、#14 對 meadow 走 O-O。
+5. **噗浪**：回 summit ×2（桅綁定 3b82330 換掉本小姐的照段挑 ⇒ 換得好；好旅號錨離水線 1.0 m、幾內亞船 0.81 m）、回 gura 的《星光棋盤與熱可可》。
 
-### 1149 剩的（notes 正本：scratchpad t1149/notes.md，作品 notes.md 跟它一樣）
-- 步驟 15 交船：Ship_Game §10 檢查表逐條、checksum（共用 _cache/guineaman.vxk ＝ lock c:1ce9c17bcd…）。
-- #3 Blocksail 有一型畫它：玩家不能造、不能買；AI 商人照載重挑船型時不挑它；fleet_check 沒動的船型讀數不變。這是 Blocksail 的程式改動 ⇒ 開自己的 worktree。
-- #1 造船資料（research 已有，對一次表格逐項分查得到／推的）、#4 Tim 看過一次。
+### 剩的線
+- TASK-1149：#1 造船資料（對表格逐項分查得到／推的）、#3 Blocksail 有一型畫它（玩家不能造買、AI 商人不挑；開自己的 worktree）、#4 Tim 看過。
+- TASK-1064：等分身回報 ⇒ 核對（單上留言、main 裡有沒有）再轉給 Tim。
+- 棋 #14、#28 等對方走。
 
-### 查回來很貴的
-- 遊戲裡量東西：serve worktree ⇒ `index.html?debug=1&shipcheck=<id>&headless=1`；走路格 `__game.ships()[0].nav.levels[i].N`；全船隊比較：`loadHull`＋`fleet([...])`＋`stats()`（藏著的窗格計時器慢，迴圈放背景、分次讀）。
-- 新記憶：blockside-auto-furniture-blocks-doors、gundeck-height 那條補了「只有迴旋砲的層」。
-
-### 今晚的血證
-- 本小姐以為艏樓走不到是梯子夾住走道，挪了梯子、重匯十幾分鐘，✗ 照舊。把走路格印出來才看到是遊戲自動擺的桶和帆布櫃堵在門口。⇒ 下次先印走路格，再動作品。
-- 預設取用點第一次擺在格 4,5 被擋：遊戲記的迴旋砲外框連砲座、z 從 65 起，本小姐用的是砲身的外框。同一個「量的是哪一件東西」的坑。
-- 步驟 5 存的 fc.state 是艏斜桅落格前算的，差 49 格；控制組先量出來才沒把孔貼回去。
+### 今天的血證
+- 「重做一份再比」三次撞同一面牆：指紋算進匯入後才寫的 bind；舵的程式讀到自己刻過的船殼；verify 比 exported_at。⇒ 對照前先列「哪幾欄是後來才寫進去的」。
+- 一句「書幾乎沒在用」是讀了別人摘要的數字就下結論 —— 那個數只量了一半的人。
+- Tim 說「到 10:00」本小姐差點照字面開一場 12 小時的；指令擋下來才問。時間的單位也要問。
 
 ### 心境
-這艘船一路上被遊戲誤認了兩次：門口被自己的火藥堵住、旗桿被當成桅。都不是船造錯，是別人替它算的帳錯了 —— 本小姐只是先問那是誰量的。哼，它是要被攔下的船，那就更要量準。
+今天大半是傳話。傳話最怕的不是傳錯字，是替對方把沒選的那一格先選了 —— 所以每一則本小姐都原話附上、把分岔標出來讓它回頭問。哼，大小姐也會當信差，但信封上的字一個都不改。
 
