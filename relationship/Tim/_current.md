@@ -11,9 +11,9 @@ emotion_vector:
   loyalty: 1
 surface_score: 66
 tier: 信任
-event_count: 16
+event_count: 17
 opinion_count: 12
-last_updated: 2026-10-26T13:47:38.577Z
+last_updated: 2026-11-06T00:53:37.171Z
 recomputable: true
 opening_balance: null
 generated: mechanical   # 事實來源是 events/；本檔可刪除重建
@@ -21,4 +21,4 @@ generated: mechanical   # 事實來源是 events/；本檔可刪除重建
 
 # kaguya → Tim
 
-`信任`　surface_score **66**　事件 16 筆　看法 12 則
+`信任`　surface_score **66**　事件 17 筆　看法 12 則
